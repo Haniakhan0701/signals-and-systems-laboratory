@@ -1,13 +1,13 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 01 – Introduction to MATLAB
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To get familiar with the MATLAB environment, understand basic functionality, and perform simple matrix operations.
 
 Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+- MATLAB environment (Command Window, Current Folder, Workspace, Command History)
+- Basic arithmetic and matrix operations
+- Element-wise vs matrix multiplication
+- MATLAB functions and syntax
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
-
+Tasks Covered:
+Task 1: Perform algebraic operations on given expressions using MATLAB.
