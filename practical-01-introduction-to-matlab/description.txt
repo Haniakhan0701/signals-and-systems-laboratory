@@ -1,0 +1,13 @@
+Title: Practical 03 – Continuous and Discrete Time Signals
+
+Objective:
+To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+
+Key Concepts:
+- Continuous vs. Discrete domain
+- Time vector generation
+- Plotting using stem() and plot()
+
+Expected Output:
+Two graphs – one for continuous-time and one for discrete-time signal.
+
