@@ -1,13 +1,18 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 05 – Signal Operations
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To perform fundamental signal operations such as addition, multiplication, scaling, shifting, and folding on discrete-time signals using MATLAB.
 
 Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+- Discrete-time Signal Representation
+- Signal Addition and Multiplication
+- Signal Shifting (Time Delay and Advance)
+- Signal Folding (Time Reversal)
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Questions:
 
+Q1: Take two discrete-time signals and perform addition operation.
+
+Q2: Perform multiplication operation on the two discrete-time signals.
+
+Q3: Shift a discrete-time signal to the right (delay) and to the left (advance).

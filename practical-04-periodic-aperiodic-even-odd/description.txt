@@ -1,13 +1,26 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 04 – Periodic, Aperiodic, Even & Odd Signals
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To understand and analyze periodicity, evenness, and oddness of signals using MATLAB. Also, to visualize periodic waveforms like tooth, square, and sine-based signals.
 
 Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+- Periodic vs. Aperiodic Signals
+- Even and Odd Signal Identification
+- Waveform Generation using MATLAB
+- Angular Frequency ω = 2πf
+- Discrete vs. Continuous Signal Representation
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Questions:
 
+Q1: Plot two sinusoids to demonstrate discrete-time and continuous-time periodic and non-periodic functions for:
+    n = -2:12
+    x1[n] = sin(4n)
+    x2[n] = sin((4πn)/5)
+    Also, comment on whether signals are even or odd.
+
+Q2: Plot a periodic sawtooth waveform.
+
+Q3: Plot a periodic square waveform.
+
+Q4: Plot a periodic sine wave using:
+    f = 50 Hz, fs = 10 kHz, display 6 cycles (both continuous and discrete time)

@@ -1,13 +1,20 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 02 – 2D Plotting and Trigonometric Graphs
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To understand 2D plotting functions in MATLAB and visualize various trigonometric functions using subplots and multiple curves.
 
 Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+- 2D plotting using `plot(x, y)`
+- Multiple curves on the same graph
+- `subplot()` for arranging multiple graphs
+- Trigonometric functions: cosine, tangent, arctangent
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Questions:
+Q1: What is subplotting in MATLAB?
+Ans: Subplotting in MATLAB allows multiple plots to be displayed in a single figure window using the `subplot(m, n, p)` command, where `m` is rows, `n` is columns, and `p` is the plot index.
 
+Q2: Paste the output of the MATLAB code provided (tangent and arctangent graphs).
+Q3: Write MATLAB code to plot the following:
+    - Cosine graph
+    - Tangent graph
+    - Arctangent graph
