@@ -1,13 +1,16 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Practical 11 – Fourier Series Using MATLAB
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To approximate a periodic signal (square wave) using its Fourier series representation.
 
-Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+Details:
+- The signal considered is a square wave, which is an odd periodic function.
+- Only odd harmonics are used in the series due to signal symmetry.
+- The Fourier coefficients are calculated using the standard formula:
+  
+  x(t) ≈ Σ (4/pi) * (1/n) * sin(n*w0*t) for odd n
+
+- The script plots both the original square wave and its Fourier approximation.
 
 Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
-
+A graph showing the original square wave and its smoother approximation using 10 harmonics.

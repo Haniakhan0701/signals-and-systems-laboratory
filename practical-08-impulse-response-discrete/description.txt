@@ -1,13 +1,25 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 08 – Impulse Response of Discrete-Time Signal
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To determine and visualize the impulse and step response of a discrete-time system in MATLAB using a given transfer function.
 
-Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+Theory:
+- The **impulse response** of a system is its output when the input is a unit impulse (δ[n]).
+- The **step response** is the output when the input is a unit step (u[n]).
+- These responses characterize the behavior of LTI systems completely.
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+In this lab, we used a difference equation defined by a transfer function:
+H(z) = (1 + z^-1) / (1 - 0.5*z^-1)
 
+Q1:
+Given transfer function H(z), we applied a unit impulse and unit step to the system using MATLAB’s `filter()` function to find:
+- Impulse response h[n]
+- Step response s[n]
+
+Functions Used:
+- `filter()`: computes the output of an LTI system
+- `stem()`: plots discrete-time signals
+- `saveas()`: saves figures
+
+Conclusion:
+The system response to both impulse and step inputs was successfully computed and plotted. These responses are essential for understanding system stability and behavior.

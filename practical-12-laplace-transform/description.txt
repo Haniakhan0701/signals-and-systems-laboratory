@@ -1,13 +1,20 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Practical 12 – Laplace Transform in MATLAB
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To compute the Laplace and inverse Laplace transforms of standard time-domain functions using MATLAB's Symbolic Math Toolbox.
 
 Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+- Laplace transform: Converts time-domain functions into s-domain
+- Inverse Laplace: Converts s-domain functions back to time-domain
+- Useful for analyzing linear time-invariant systems
+
+Examples Performed:
+1. Laplace of exp(-2t)
+2. Laplace of sin(3t)
+3. Inverse Laplace of (1 / (s^2 + 4s + 5))
 
 Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Symbolic expressions of the Laplace and inverse Laplace results.
 
+Note:
+Requires the Symbolic Math Toolbox.

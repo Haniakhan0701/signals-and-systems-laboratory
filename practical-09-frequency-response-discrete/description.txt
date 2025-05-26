@@ -1,13 +1,16 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 09 – Frequency Response of Discrete-Time Signal
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To analyze the frequency response of a discrete-time system using MATLAB and interpret its magnitude and phase behavior.
 
-Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+Theory:
+The frequency response of a system shows how it reacts to different frequency components in the input signal. It is defined as H(e^jω), and its:
+- **Magnitude response** shows gain vs frequency.
+- **Phase response** shows phase shift vs frequency.
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Functions Used:
+- `freqz()`: calculates frequency response of digital filters.
+- `plot()`: used for plotting magnitude and phase.
 
+Conclusion:
+We successfully computed and visualized the frequency response. These plots help in understanding the filter characteristics and signal behavior in the frequency domain.

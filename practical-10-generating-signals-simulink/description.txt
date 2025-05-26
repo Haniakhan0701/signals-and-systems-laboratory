@@ -1,13 +1,25 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 10 – Generating Signals Using Simulink
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To understand the use of Simulink for generating signals and explore its graphical modeling environment.
 
-Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+Theory:
+Simulink is a MATLAB-based graphical programming environment used for modeling, simulating, and analyzing dynamic systems. It includes:
+- A graphical editor for model construction
+- A customizable block library
+- Time-based solvers
+- Interactive model exploration tools
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Simulink is widely used in signal processing, control systems, communications, and embedded systems.
 
+Task:
+1. Open Simulink and create a new model.
+2. Use the "Sine Wave" block from the Simulink library.
+3. Connect it to a "Scope" block to visualize the signal.
+4. Run the simulation and observe the output waveform.
+
+Comment:
+Simulink simplifies the modeling of complex systems using a block-diagram approach. It allows users to simulate signal behavior without writing code, making it ideal for visual learners and rapid prototyping.
+
+Conclusion:
+Simulink provides an intuitive interface to create and simulate signal systems effectively. It is a powerful tool for understanding the dynamics of various systems visually.

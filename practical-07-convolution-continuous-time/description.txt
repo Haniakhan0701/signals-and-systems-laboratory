@@ -1,13 +1,22 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 07 – Convolution of Continuous-Time Signals in MATLAB
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To understand and perform the convolution of continuous-time signals using MATLAB and visualize the result.
 
-Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+Theory:
+Convolution in continuous-time systems represents the integral of the overlapping area between two signals as one is shifted over the other. This helps in determining the output of an LTI system when an input signal is passed through it.
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+In MATLAB, we simulate continuous signals by sampling at small intervals (T = 0.1 in this case). The `conv()` function approximates the integral as a summation.
 
+Q1:
+Defined two rectangular pulse signals:
+- Signal 1: Width 2 units, height 1 (from t = 0 to t = 2)
+- Signal 2: Width 1 unit, height 1 (from t = 0 to t = 1)
+
+Used MATLAB to plot both signals and compute their convolution. The convolution result represents the output signal as one pulse slides over the other.
+
+Functions Used:
+- `plot()`, `conv()`, `saveas()`
+
+Conclusion:
+Convolution of two continuous-time square pulses results in a triangular signal. This confirms theoretical expectations and shows how pulse duration affects the resulting signal.

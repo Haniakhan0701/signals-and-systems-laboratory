@@ -7,7 +7,7 @@ B = [5 6; 7 8];
 % Matrix Addition
 add_result = A + B;
 
-% Matrix Subtraction
+%Matrix Subtraction
 sub_result = A - B;
 
 % Matrix Multiplication (Standard)

@@ -1,13 +1,25 @@
-Title: Practical 03 – Continuous and Discrete Time Signals
+Title: Practical 06 – Convolution of Discrete-Time Signals in MATLAB
 
 Objective:
-To understand and implement the concept of continuous-time and discrete-time signals in MATLAB.
+To understand the concept of convolution and its implementation in MATLAB for discrete-time signals.
 
-Key Concepts:
-- Continuous vs. Discrete domain
-- Time vector generation
-- Plotting using stem() and plot()
+Theory:
+Convolution is a mathematical operation used to express the relation between input and output of an LTI (Linear Time-Invariant) system. In MATLAB, the `conv()` function is used to compute the convolution of two signals.
 
-Expected Output:
-Two graphs – one for continuous-time and one for discrete-time signal.
+Q1:
+Given:
+  x[n] = [0.5 0.5 0.5]
+  h[n] = [3.0 2.0 1.0]
+Performed convolution using MATLAB’s `conv()` function and plotted the result.
 
+Q2:
+Given:
+  x[n] = [1 2 3]
+  h[n] = [1 1]
+Performed convolution using MATLAB and plotted the result to visualize the output signal.
+
+Tools: MATLAB Online 
+Functions Used: conv(), stem(), saveas()
+
+Conclusion:
+The convolution results from MATLAB matched theoretical calculations, validating the accuracy of the `conv()` function for LTI system analysis.
